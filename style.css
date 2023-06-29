@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.Header-Middle {
+  display: flex;
+  gap: 16px;
+}
+
+.Upper-Body {
+  display: flex;
+  gap: 5rem;
+}
+
+main {
+  padding: 32px;
+}
+
+.Msg-Box {
+  background-color: #e5d8ff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.Middle-Body {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 12px;
+  width: 100%;
+}
+.Footer-left {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.Footer-card {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+
+  border-radius: 12px;
+  width: 100%;
+}
+
+.Footer-Right-leftpart {
+  display: flex;
+  flex-direction: column;
+}
+.Footer-main {
+  display: flex;
+  flex-direction: column;
+}
