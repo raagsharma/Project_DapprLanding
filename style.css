@@ -46,25 +46,151 @@ main {
   border-radius: 12px;
   width: 100%;
 }
+
+footer {
+  background-color: #483eff;
+  display: flex;
+  margin: 32px;
+  border-radius: 12px;
+  font-family: "DM Sans";
+}
+
 .Footer-left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
   margin: 1rem;
+  font-weight: bold;
 }
+
 .Footer-card {
-  display: flex;
-  gap: 0.75rem;
-  padding: 1rem;
-
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  color: white;
   border-radius: 12px;
-  width: 100%;
 }
 
-.Footer-Right-leftpart {
-  display: flex;
-  flex-direction: column;
+.Footer-right {
+  background-color: white;
+  margin: 1rem;
+  padding: 2rem;
+  flex: 1;
+  border-radius: 12px;
 }
+
 .Footer-main {
+  margin: 1rem 0rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.Footer-main-item {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+}
+
+.Footer-Actions {
+  display: flex;
+  justify-content: end;
+}
+
+.Footer-Next-btn {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.Footer-Next-btn > img {
+  height: 10px;
+}
+
+.Header {
+  background-color: #6f6af7;
+}
+.Header-Left {
+  font-family: "Delius Unicase";
+  color: white;
+}
+
+.Header-Middle {
+  color: white;
+  font-family: "DM Sans";
+  display: flex;
+  align-items: center;
+}
+
+.Search-Box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-right: 4px;
+  border-radius: 53px;
+}
+
+.Search-Box > img {
+  height: 12px;
+}
+
+.Search-Box > input {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 53px;
+}
+
+.Search-Box > input:focus {
+  outline: none;
+}
+
+.more-btn {
+  display: flex;
+  align-items: center;
+}
+
+.more-btn > img {
+  height: 4px;
+  margin: 2px 0 0 4px;
+}
+
+.Header-Right > img {
+  height: 20px;
+}
+.Card {
+  font-family: "DM Sans";
+  font-weight: bold;
+}
+.Msg-Box {
+  font-family: "DM Sans";
+}
+.green-card {
+  background-color: #bce0f6;
+  color: black;
+}
+
+.Social {
+  position: sticky;
+  top: 80px;
+  margin-top: 25vh;
+  float: right;
+}
+
+.Social > img {
+  height: 40px;
+  display: block;
+  width: fit-content;
+}
+.help {
+  border-radius: 360%;
+  position: fixed;
+  right: 60px;
+  bottom: 20px;
+}
+.help > img {
+  height: 100px;
+  width: 100px;
 }
